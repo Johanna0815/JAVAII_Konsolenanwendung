@@ -1,0 +1,30 @@
+# Maven target directory
+/target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# Log files
+*.log
+
+# Compiled class files
+*.class
+
+# Generated files
+/generated-sources/
+
+# Mac OS specific files
+.DS_Store
+
+# Linux or Unix specific
+*~
