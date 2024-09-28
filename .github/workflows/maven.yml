@@ -44,7 +44,7 @@ jobs:
       # Schritt 2: Committe den aktualisierten Zähler zurück in das Repository
       - name: Commit new run count
         env:
-          TOKEN: ${{ secrets.johanna_TOKEN}}  #johanna_TOKEN
+          TOKEN: ${{ secrets.JOHANNA_TOKEN}}  #johanna_TOKEN
         run: |
           git config --global user.name "Johanna0815"
           git config --global user.email "if20b016@technikum-wien.at"
