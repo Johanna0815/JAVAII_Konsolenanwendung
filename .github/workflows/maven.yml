@@ -50,4 +50,4 @@ jobs:
           git config --global user.email "if20b016@technikum-wien.at"
           git add run_count.txt
           git commit -m "Update run count to $new_count"
-          git push https://x-access-token:${TOKEN}@github.com/Johanna0815/JAVAII_Konsolenanwendung.git
+          git push https://x-access-token:${JOHANNA_TOKEN}@github.com/Johanna0815/JAVAII_Konsolenanwendung.git
